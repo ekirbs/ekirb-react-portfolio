@@ -1,11 +1,11 @@
 import React from 'react';
-// Here we are importing a CSS file as a dependency
+
 import './style.css';
 
 function Header() {
   return (
     <header className="header">
-      <h1>Home</h1>
+      <a href="/"><h1>Eric Kirberger || Full Stack Web Developer</h1></a>
     </header>
   );
 }

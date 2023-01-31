@@ -1,12 +1,12 @@
 .header {
-  background: #f9b713;
+  background: #424242;
   height: 200px;
 }
 
-.header h1 {
+.header a h1 {
   margin: 0;
   padding-top: 75px;
   text-align: center;
-  color: white;
+  color: #bdbdbd;
   font-size: 3rem;
 }

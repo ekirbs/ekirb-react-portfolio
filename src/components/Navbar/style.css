@@ -1,13 +1,13 @@
-card {
-  margin: 20;
-  background: '#e8eaf6';
+.navCard {
+  margin: 20px;
+  background: #e8eaf6;
 }
 
-heading {
-  background: '#9a74db';
-  min-height: 50;
-  line-height: 3.5;
-  font-size: '1.2rem';
-  color: 'white';
-  padding: '0 20px';
+.navHeading {
+  background: #9a74db;
+  min-height: 50px;
+  line-height: 3.5px;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0 20px;
 }
