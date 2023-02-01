@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Blog from '../pages/Blog';
-import Contact from '../pages/Contact';
-import Login from '../pages/Login';
-import Resume from '../pages/Resume';
+
+import Header from "../components/Header/index"
+import Navbar from '../components/Navbar/index';
+
+import Home from '../pages/Home/Home';
+import About from '../pages/About/About';
+import Blog from '../pages/Blog/Blog';
+import Contact from '../pages/Contact/Contact';
+import Login from '../pages/Login/Login';
+import Resume from '../pages/Resume/Resume';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -33,7 +36,8 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
   );

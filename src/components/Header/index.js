@@ -1,5 +1,5 @@
 import React from 'react';
-import thinkingRobot from "../thinkingRobot.jpg";
+import thinkingRobot from "./thinkingRobot.jpg";
 
 import './style.css';
 

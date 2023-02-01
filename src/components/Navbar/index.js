@@ -20,10 +20,72 @@ import "./style.css";
 // };
 
 // In Navbar, we can assign a style from an object by using curly braces
-function Navbar() {
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <div className="navCard">
-      <div className="navHeader">Home</div>
+      {/* <div className="navHeader">Home</div> */}
+      <ul className="nav nav-tabs">
+      <li className="nav-item navHeader">
+        <a
+          href="#home"
+          onClick={() => handlePageChange('Home')}
+
+          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+        >
+          Home
+        </a>
+      </li>
+      <li className="nav-item navHeader">
+        <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+          About
+        </a>
+      </li>
+      <li className="nav-item navHeader">
+        <a
+          href="#blog"
+          onClick={() => handlePageChange('Blog')}
+
+          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+        >
+          Blog
+        </a>
+      </li>
+      <li className="nav-item navHeader">
+        <a
+          href="#contact"
+
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
+      <li className="nav-item navHeader">
+        <a
+          href="#resume"
+
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+      <li className="nav-item navHeader">
+        <a
+          href="#login"
+
+          onClick={() => handlePageChange('Login')}
+          className={currentPage === 'Login' ? 'nav-link active' : 'nav-link'}
+        >
+          Login
+        </a>
+      </li>
+    </ul>
     </div>
   );
 }

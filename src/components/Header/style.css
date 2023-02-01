@@ -7,10 +7,10 @@
 }
 
 .header img {
-  max-width: 10em;
-  max-height: auto;
+  max-width: auto;
+  max-height: 10.5em;
   border: .25em solid black;
-  border-radius: 5em;
+  border-radius: 2em;
 }
 
 .header a h1 {
