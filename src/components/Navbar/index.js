@@ -77,10 +77,10 @@ function Navbar({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item navHeader">
         <a
-          href="#login"
+          href="#lofi"
 
-          onClick={() => handlePageChange('Login')}
-          className={currentPage === 'Login' ? 'nav-link active' : 'nav-link'}
+          onClick={() => handlePageChange('LoFi')}
+          className={currentPage === 'LoFi' ? 'nav-link active' : 'nav-link'}
         >
           Lo-Fi Chill
         </a>
