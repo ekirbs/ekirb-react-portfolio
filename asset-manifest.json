@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ekirb-react-portfolio/static/css/main.d942441b.css",
+    "main.js": "/ekirb-react-portfolio/static/js/main.8c1321a7.js",
+    "static/media/nat-park-travel-guide-screenshot.png": "/ekirb-react-portfolio/static/media/nat-park-travel-guide-screenshot.9635b15ca033496dfbba.png",
+    "static/media/thinkingRobot.jpg": "/ekirb-react-portfolio/static/media/thinkingRobot.dfc9b8a7381c9ca6fdbf.jpg",
+    "static/media/weather-forecast-screenshot.png": "/ekirb-react-portfolio/static/media/weather-forecast-screenshot.406c388bf31e565f9ce6.png",
+    "static/media/daily-sched-screenshot.png": "/ekirb-react-portfolio/static/media/daily-sched-screenshot.6528d637459297ebd820.png",
+    "static/media/big-quiz-screenshot.png": "/ekirb-react-portfolio/static/media/big-quiz-screenshot.0e8e631a9a86cc614200.png",
+    "static/media/github-logo.jpg": "/ekirb-react-portfolio/static/media/github-logo.fabbe3c10b110b54f815.jpg",
+    "static/media/random-password-generator-screenshot.png": "/ekirb-react-portfolio/static/media/random-password-generator-screenshot.772b327e01b07437a038.png",
+    "static/media/linkedin-logo.jpg": "/ekirb-react-portfolio/static/media/linkedin-logo.d85c32d23d11237ea004.jpg",
+    "index.html": "/ekirb-react-portfolio/index.html",
+    "main.d942441b.css.map": "/ekirb-react-portfolio/static/css/main.d942441b.css.map",
+    "main.8c1321a7.js.map": "/ekirb-react-portfolio/static/js/main.8c1321a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d942441b.css",
+    "static/js/main.8c1321a7.js"
+  ]
+}
