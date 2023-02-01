@@ -1,6 +1,16 @@
 .header {
   background: #424242;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header img {
+  max-width: 10em;
+  max-height: auto;
+  border: .25em solid black;
+  border-radius: 5em;
 }
 
 .header a h1 {
