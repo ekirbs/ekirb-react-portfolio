@@ -42,7 +42,7 @@ function Navbar({ currentPage, handlePageChange }) {
 
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          About Me
         </a>
       </li>
       <li className="nav-item navHeader">
@@ -82,7 +82,7 @@ function Navbar({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Login')}
           className={currentPage === 'Login' ? 'nav-link active' : 'nav-link'}
         >
-          Login
+          Lo-Fi Chill
         </a>
       </li>
     </ul>

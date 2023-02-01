@@ -1,0 +1,93 @@
+.cardCard {
+  margin: 2em;
+  background: #e8eaf6;
+}
+
+.cardHeading {
+  background: #3f51b5;
+  min-height: 4em;
+  line-height: .5em;
+  font-size: 1.2rem;
+  color: white;
+  padding: 2em;
+}
+
+.cardContent {
+  padding: 2em;
+}
+
+/* NEWLY ADDED */
+
+.projects-section {
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5em;
+  grid-template-areas:
+    "main main alt"
+    "alt alt alt";
+}
+
+.projectCard {
+  height: 100%;
+  width: 100%;
+  margin: 1%;
+  background-color: #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: flex-end;
+  overflow: hidden;
+  min-width: 25%;
+}
+
+.projectCard a {
+  opacity: 75%;
+}
+
+.projectCard img {
+  width: 100%;
+}
+
+.card-main {
+  width: 0;
+  /* height: 0; */
+  margin: 2px;
+  min-width: 100%;
+  min-height: 100%;
+  grid-area: 1 / 1 / span 1 / span 2;
+}
+
+.card-alt {
+  width: 0;
+  height: 0;
+  margin: 2px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.img-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #424242;
+  color: #dfdfdf;
+  flex: 1 1 50%;
+  padding: 2px;
+  border-radius: .5em 0 0 0;
+  opacity: 75%;
+}
+
+a:hover {
+  opacity: 100%;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.025);
+}

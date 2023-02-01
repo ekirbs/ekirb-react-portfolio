@@ -7,7 +7,7 @@ import Home from '../pages/Home/Home';
 import About from '../pages/About/About';
 import Blog from '../pages/Blog/Blog';
 import Contact from '../pages/Contact/Contact';
-import Login from '../pages/Login/Login';
+import LoFi from '../pages/LoFi/LoFi';
 import Resume from '../pages/Resume/Resume';
 
 export default function PortfolioContainer() {
@@ -23,13 +23,13 @@ export default function PortfolioContainer() {
     if (currentPage === 'Blog') {
       return <Blog />;
     }
-    if (currentPage === 'Login') {
-      return <Login />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
     }
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    return <Contact />;
+    return <LoFi />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
