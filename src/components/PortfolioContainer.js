@@ -21,10 +21,10 @@ export default function PortfolioContainer() {
       return <Blog />;
     }
     if (currentPage === 'Login') {
-      return <Blog />;
+      return <Login />;
     }
     if (currentPage === 'Resume') {
-      return <Blog />;
+      return <Resume />;
     }
     return <Contact />;
   };

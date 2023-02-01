@@ -1,17 +1,17 @@
 .cardCard {
-  margin: 20px;
+  margin: 2em;
   background: #e8eaf6;
 }
 
 .cardHeading {
   background: #3f51b5;
-  min-height: 50px;
-  line-height: 3.5px;
+  min-height: 4em;
+  line-height: .5em;
   font-size: 1.2rem;
   color: white;
-  padding: 0 20px;
+  padding: 2em;
 }
 
 .cardContent {
-  padding: 20px;
+  padding: 2em;
 }
