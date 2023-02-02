@@ -61,13 +61,20 @@ export default function Contact() {
             type="email"
             placeholder="Email"
           />
-          <input
+          <textarea
             value={textArea}
             name="textArea"
             onChange={handleInputChange}
             type="textArea"
             placeholder="Text Area"
           />
+          {/* <input
+            value={textArea}
+            name="textArea"
+            onChange={handleInputChange}
+            type="textArea"
+            placeholder="Text Area"
+          /> */}
           <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>Send It</button>
         </form>
         {errorMessage && (

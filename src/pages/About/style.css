@@ -1,4 +1,4 @@
-.cardCard {
+.aboutCard {
   margin: 2em;
   background: #e8eaf6;
 }
@@ -23,6 +23,7 @@
 .aboutMain img {
   width: 10em;
   max-height: 10em;
-  border: .25em solid black;
+  border: .25em solid #3f51b5;
   border-radius: 2em;
+  box-shadow: .75em .75em 1em black;
 }
