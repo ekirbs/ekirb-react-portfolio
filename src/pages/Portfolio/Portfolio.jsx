@@ -9,10 +9,10 @@ import weatherForecast from "./images/weather-forecast-screenshot.png";
 
 import "./style.css";
 
-export default function Home() {
+export default function Portfolio() {
   return (
     <div className="cardCard">
-      <h1 className="cardHeading">Home Page</h1>
+      <h1 className="cardHeading">My Portfolio</h1>
 
       <section className="section-label projects-header">
         <h2>Projects</h2>

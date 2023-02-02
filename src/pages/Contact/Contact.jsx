@@ -40,13 +40,6 @@ export default function Contact() {
         quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
         voluptas nulla pariatur?`
       </p>
-      <section id="contact-me" class="contact-me-section">
-        {/* I took out target="_blank" from the <a> links because I was getting terminal warnings...explore */}
-        <a href="tel:5558675309">(555) 867-5309</a>
-        <a href="mailto:erickirberger@gmail.com">erickirberger@gmail.com</a>
-        <a href="https://github.com/ekirbs" target="_blank" rel="noreferrer"><img src={githubLogo} class="float-left zoom rounded-image" alt="GitHub logo."/></a>
-        <a href="https://www.linkedin.com/in/eric-kirberger-866a853b/" target="_blank" rel="noreferrer"><img src={linkedinLogo} class="float-left zoom rounded-image" alt="Linkedin logo."/></a>
-      </section>
     </div>
     // <div>
     //   <h1>Contact Page</h1>

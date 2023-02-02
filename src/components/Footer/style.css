@@ -1,4 +1,4 @@
-.header {
+.footer {
   background: #424242;
   height: 10em;
   display: flex;
@@ -6,12 +6,12 @@
   justify-content: space-around;
 }
 
-/* .header img {
+.header img {
   max-width: auto;
   max-height: 10em;
   border: .25em solid black;
   border-radius: 2em;
-} */
+}
 
 .header a h1 {
   margin: 0;
@@ -19,4 +19,23 @@
   text-align: center;
   color: #bdbdbd;
   font-size: 3rem;
+}
+
+/* NEWLY ADDED */
+/* .footer {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-bottom: 2em; */
+}
+
+.footer-section a img {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 10%;
 }
