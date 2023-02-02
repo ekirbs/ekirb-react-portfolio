@@ -15,3 +15,14 @@
 .cardContent {
   padding: 2em;
 }
+
+.aboutMain {
+  display: flex;
+}
+
+.aboutMain img {
+  width: 10em;
+  max-height: 10em;
+  border: .25em solid black;
+  border-radius: 2em;
+}

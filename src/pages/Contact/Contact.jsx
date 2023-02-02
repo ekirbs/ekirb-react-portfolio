@@ -44,7 +44,7 @@ export default function Contact() {
   return (
     <div className="cardCard">
       <h1 className="cardHeading">Contact Me</h1>
-      <div>
+      <div className ="contactContainer">
         <p>Hi {contactName}</p>
         <form className="form">
           <input

@@ -1,12 +1,16 @@
 import React from 'react';
 
+import thinkingRobot from "./images/thinkingRobot.jpg"
 import "./style.css";
 
 export default function About() {
   return (
     <div className="cardCard">
       <h1 className="cardHeading">About Me</h1>
-      <p className="cardContent">Hello! My name is Eric Kirberger and I am an aspiring Full Stack Web Developer. I am currently in the Rutgers Coding Bootcamp, with a constantly improving knowledge of important programming technologies, including: </p>
+      <div className="aboutMain">
+        <p className="cardContent col-9">Hello! My name is Eric Kirberger and I am an aspiring Full Stack Web Developer. I am currently in the Rutgers Coding Bootcamp, with a constantly improving knowledge of important programming technologies, including: </p>
+        <img src={thinkingRobot}></img>
+      </div>
       <ul>
         <li>MongoDB/Mongoose</li>
         <li>Express.js</li>

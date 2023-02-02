@@ -7,13 +7,13 @@ import './style.css';
 function Footer() {
   return (
     <footer className="footer">
-      <section className="footer-section">
+      {/* <section className="footer-section"> */}
         {/* I took out target="_blank" from the <a> links because I was getting terminal warnings...explore */}
         <a href="tel:5558675309">(555) 867-5309</a>
         <a href="mailto:erickirberger@gmail.com">erickirberger@gmail.com</a>
         <a href="https://github.com/ekirbs" target="_blank" rel="noreferrer"><img src={githubLogo} class="float-left zoom rounded-image" alt="GitHub logo."/></a>
         <a href="https://www.linkedin.com/in/eric-kirberger-866a853b/" target="_blank" rel="noreferrer"><img src={linkedinLogo} class="float-left zoom rounded-image" alt="Linkedin logo."/></a>
-      </section>
+      {/* </section> */}
     </footer>
   );
 }

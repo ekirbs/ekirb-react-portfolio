@@ -24,26 +24,17 @@
 }
 
 /* NEWLY ADDED */
-.contact-me-section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 2em;
-}
-
-.contact-me-section a img {
-  height: 8vh;
-  width: 8vh;
-  border-radius: 10%;
+.contactContainer p {
+  margin: 2em;
 }
 
 .form {
-  margin: 20px;
+  margin: 2em;
 }
 
 .form input {
   display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 1em;
+  margin-bottom: 1em;
   width: 100%;
 }
