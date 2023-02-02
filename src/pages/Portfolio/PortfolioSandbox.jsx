@@ -1,10 +1,5 @@
 import React from 'react';
 
-import { Carousel } from 'react-carousel-card-3d';
-
-import Carousel3d from "../../components/Card/Carousel3d";
-import CarouselCard from "../../components/Card/CarouselCard";
-
 import { dailySchedulePlanner, theBigQuiz, natParkTravelGuide, randomPasswordGenerator, weatherForecast } from './images';
 
 import "./style.css";
@@ -13,43 +8,7 @@ export default function Portfolio() {
   return (
     <div className="portfolioCard">
       <h1 className="portfolioCardHeading">My Portfolio</h1>
-      <Carousel3d
-          cards={[
-            {
-              key: 1,
-              content: <CarouselCard title="Daily Schedule Planner" image={dailySchedulePlanner} />,
-            },
-            {
-              key: 2,
-              content: <CarouselCard title="the BIG quiz" image={theBigQuiz} />,
-            },
-            {
-              key: 3,
-              content: (
-                <CarouselCard title="Nat Park Travel Guide" image={natParkTravelGuide} />
-              ),
-            },
-            {
-              key: 4,
-              content: (
-                <CarouselCard title="Random Password Generator" image={randomPasswordGenerator} />
-              ),
-            },
-            {
-              key: 5,
-              content: (
-                <CarouselCard title="Weather Forecast" image={weatherForecast} />
-              ),
-            },
-            {
-              key: 6,
-              content: (
-                <CarouselCard title="The BIG Quiz" image={theBigQuiz} />
-              ),
-            },
-          ]}
-          offset={2}
-        />
+
       {/* <div className="container carouselContainer"> */}
         {/* <div id="projectCarousel" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-indicators">
@@ -114,6 +73,57 @@ export default function Portfolio() {
           </button>
         </div> */}
       {/* </div> */}
+
+      <section id="sample-work" className="projects-section">
+        <article className="projectCard card-alt projectZoom">
+          <a href="https://ekirbs.github.io/national-park-travelers-guide/" target="_blank" rel="noreferrer"><img src={natParkTravelGuide} className="project-image" alt="My group's National Park Traveler's Guide website."/></a>
+          <div className="img-text">
+            <h3>Project One</h3>
+            <p>National Park Travel Guide!</p>
+          </div>
+        </article>
+
+        <article className="projectCard card-alt projectZoom">
+          <a href="https://ekirbs.github.io/weather-forecast-finder/" target="_blank" rel="noreferrer"><img src={weatherForecast} className="project-image" alt="My Weather Forecast Finder."/></a>
+          <div className="img-text">
+            <h3>Project Two</h3>
+            <p>Weather Forecast Finder!</p>
+          </div>
+        </article>
+
+        <article className="projectCard card-alt projectZoom">
+          <a href="https://ekirbs.github.io/daily-schedule-planner/" target="_blank" rel="noreferrer"><img src={dailySchedulePlanner} className="project-image" alt="My Daily Schedule Planner."/></a>
+          <div className="img-text">
+            <h3>Project Three</h3>
+            <p>Daily Schedule Planner!</p>
+          </div>
+        </article>
+
+        <article className="projectCard card-alt projectZoom">
+          <a href="https://ekirbs.github.io/the-big-quiz/" target="_blank" rel="noreferrer"><img src={theBigQuiz} className="project-image" alt="My quiz game, the BIG quiz!."/></a>
+          <div className="img-text">
+            <h3>Project Four</h3>
+            <p>the BIG quiz!</p>
+          </div>
+        </article>
+
+        <article className="projectCard card-alt projectZoom">
+          <a href="https://ekirbs.github.io/random-password-generator/" target="_blank" rel="noreferrer"><img src={randomPasswordGenerator} className="project-image" alt="My Random Password Generator."/></a>
+          <div className="img-text">
+            <h3>Project Five</h3>
+            <p>Random Password Generator!</p>
+          </div>
+        </article>
+
+        <article className="projectCard card-alt projectZoom">
+          <a href="https://ekirbs.github.io/the-big-quiz/" target="_blank" rel="noreferrer"><img src={theBigQuiz} className="project-image" alt="My quiz game, the BIG quiz!."/></a>
+          <div className="img-text">
+            <h3>Project Four</h3>
+            <p>the BIG quiz!</p>
+          </div>
+        </article>
+
+      </section>
     </div>
   );
 }

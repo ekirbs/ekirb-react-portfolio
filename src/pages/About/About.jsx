@@ -19,7 +19,7 @@ export default function About() {
         <li>MySQL/Sequelize</li>
         <li>And Many More</li>
       </ul>
-      <p className="cardContent">Before working in web development, I was a fencing instructor and teacher of over 15 years, having achieved a Bachelor's Degree in Philosophy from Rutgers University. Please enjoy the rest of my portfolio.</p>
+      <p className="aboutCardContent">Before working in web development, I was a fencing instructor and teacher of over 15 years, having achieved a Bachelor's Degree in Philosophy from Rutgers University. Please enjoy the rest of my portfolio.</p>
     </div>
   );
 }

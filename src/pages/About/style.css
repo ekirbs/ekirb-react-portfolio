@@ -1,6 +1,7 @@
 .aboutCard {
   margin: 2em;
   background: #e8eaf6;
+  border-radius: 3em 3em 2em 2em;
 }
 
 .aboutCardHeading {
@@ -10,6 +11,7 @@
   font-size: 1.2rem;
   color: white;
   padding: 2em;
+  border-radius: 2em 2em 0 0;
 }
 
 .aboutCardContent {

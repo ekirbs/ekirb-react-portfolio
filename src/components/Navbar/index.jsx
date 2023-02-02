@@ -36,7 +36,7 @@ function Navbar({ currentPage, handlePageChange }) {
             Resume
           </a>
         </li>
-        <li className="nav-item navHeader">
+        {/* <li className="nav-item navHeader">
           <a
             href="#Blog"
 
@@ -45,7 +45,7 @@ function Navbar({ currentPage, handlePageChange }) {
           >
             Blog
           </a>
-        </li>
+        </li> */}
         <li className="nav-item navHeader">
           <a
             href="#LoFi"

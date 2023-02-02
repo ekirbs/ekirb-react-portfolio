@@ -3,12 +3,7 @@ import { config } from "react-spring";
 
 import { Carousel } from "react-carousel-card-3d";
 
-export default function Carousel3d({
-  cards,
-  offset,
-  autorotation = true,
-  rotationInterval = 5000,
-}) {
+export default function Carousel3d({ cards, offset }) {
   const table = cards.map((element: any, index: number) => {
     return { ...element, index, onClick: () => setGoToSlide(index) };
   });
@@ -20,23 +15,6 @@ export default function Carousel3d({
   useEffect(() => {
     setOffsetRadius(offset);
   }, [offset]);
-
-  useEffect(() => {
-    let interval: NodeJS.Timer | null = null;
-    if (autorotation) {
-      interval = setInterval(() => {
-        setGoToSlide((prevState) =>
-          prevState + 1 >= cards.length ? 0 : prevState + 1
-        );
-      }, rotationInterval);
-    }
-
-    return () => {
-      if (autorotation && interval) {
-        clearInterval(interval);
-      }
-    };
-  }, [cards, autorotation, rotationInterval]);
 
   return (
     <Carousel

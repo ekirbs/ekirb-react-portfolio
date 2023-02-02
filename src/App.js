@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
-import { Header, Navbar, Figure, Footer } from "./components";
+import "./assets/css/style.css";
+
+import { Header, Navbar, Footer } from "./components";
 import { About, Portfolio, Resume, Blog, LoFi, Contact } from './pages'
 
 export default function App() {
@@ -28,10 +30,9 @@ export default function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className ="base">
       <Header />
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Figure />
       {renderPage()}
       <Footer />
     </div>
