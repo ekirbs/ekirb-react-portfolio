@@ -11,6 +11,23 @@ export default function Contact() {
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else if (inputType === "username") {
+      setUserName(inputValue);
+    } else {
+      setPassword(inputValue);
+    }
+  };
+
+
+
+
 
   return (
     <div className="cardCard">
