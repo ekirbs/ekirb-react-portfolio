@@ -1,11 +1,17 @@
-import React from 'react';
-
-import githubLogo from "./images/github-logo.jpg";
-import linkedinLogo from "./images/linkedin-logo.jpg";
+import React, { useState } from 'react';
 
 import "./style.css";
 
+import { checkPassword, validateEmail } from "../../utils/helpers";
+
 export default function Contact() {
+
+  const [email, setEmail] = useState("");
+  const [userName, setUserName] = useState("");
+  const [password, setPassword] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+
   return (
     <div className="cardCard">
       <h1 className="cardHeading">Contact Me</h1>

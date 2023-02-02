@@ -5,7 +5,7 @@ import "./style.css";
 export default function Contact() {
   return (
     <div className="cardCard">
-      <h1 className="cardHeading">Resume Page</h1>
+      <h1 className="cardHeading">My Resume</h1>
       <p className="cardContent">
         `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
