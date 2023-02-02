@@ -19,42 +19,42 @@ export default function Portfolio() {
                 key: 1,
                 content: (
                   // <a href="https://ekirbs.github.io/daily-schedule-planner/" target="_blank" rel="noreferrer"><CarouselCard title="Daily Schedule Planner" image={dailySchedulePlanner} /></a>
-                  <CarouselCard title="Daily Schedule Planner" image={dailySchedulePlanner} />
+                  <CarouselCard title="Daily Schedule Planner" image={dailySchedulePlanner} className="projectImg" />
                 ),
               },
               {
                 key: 2,
                 content: (
                   // <a href="https://ekirbs.github.io/the-big-quiz/" target="_blank" rel="noreferrer"><CarouselCard title="the BIG quiz" image={theBigQuiz} /></a>
-                  <CarouselCard title="the BIG quiz" image={theBigQuiz} />
+                  <CarouselCard title="the BIG quiz" image={theBigQuiz} className="projectImg" />
                 ),
               },
               {
                 key: 3,
                 content: (
                   // <a href="https://ekirbs.github.io/national-park-travelers-guide/" target="_blank" rel="noreferrer"><CarouselCard title="Nat Park Travel Guide" image={natParkTravelGuide} /></a>
-                  <CarouselCard title="Nat Park Travel Guide" image={natParkTravelGuide} />
+                  <CarouselCard title="Nat Park Travel Guide" image={natParkTravelGuide} className="projectImg" />
                 ),
               },
               {
                 key: 4,
                 content: (
                   // <a href="https://ekirbs.github.io/random-password-generator/" target="_blank" rel="noreferrer"><CarouselCard title="Random Password Generator" image={randomPasswordGenerator} /></a>
-                  <CarouselCard title="Random Password Generator" image={randomPasswordGenerator} />
+                  <CarouselCard title="Random Password Generator" image={randomPasswordGenerator} className="projectImg" />
                 ),
               },
               {
                 key: 5,
                 content: (
                   // <a href="https://ekirbs.github.io/weather-forecast-finder/" target="_blank" rel="noreferrer"><CarouselCard title="Weather Forecast" image={weatherForecast} /></a>
-                  <CarouselCard title="Weather Forecast" image={weatherForecast} />
+                  <CarouselCard title="Weather Forecast" image={weatherForecast} className="projectImg" />
                 ),
               },
               {
                 key: 6,
                 content: (
                   // <a href="https://ekirbs.github.io/the-big-quiz/" target="_blank" rel="noreferrer"><CarouselCard title="the BIG quiz" image={theBigQuiz} /></a>
-                  <CarouselCard title="The BIG Quiz" image={theBigQuiz} />
+                  <CarouselCard title="The BIG Quiz" image={theBigQuiz} className="projectImg" />
                 ),
               },
             ]}

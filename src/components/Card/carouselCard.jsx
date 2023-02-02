@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 
-import SquareBorder from "./images/square-border.png";
+import whiteSquare from "./images/white-square.png";
 
 function Card({ title, image, currentSlide, currentIndex }: any) {
   const [show, setShown] = useState(false);
@@ -11,6 +11,7 @@ function Card({ title, image, currentSlide, currentIndex }: any) {
     boxShadow: show
       ? "0 20px 25px rgb(0 0 0 / 25%)"
       : "0 2px 10px rgb(0 0 0 / 8%)",
+      borderRadius: "2em",
   });
   return (
     <animated.div
@@ -18,19 +19,10 @@ function Card({ title, image, currentSlide, currentIndex }: any) {
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
     >
-      <div
-        style={{
-          background: "rgba(0, 0, 0, 0.1)",
-          backdropFilter: "blur(22px)",
-          position: "relative",
-        }}
-      >
-        <div style={{ position: "absolute", width: "100%", height: "100%" }}>
-          <img
-            src={SquareBorder}
-            alt="SquareBorder"
-            style={{ objectFit: "fill", width: "100%", height: "100%" }}
-          />
+      <div className="carouselWhiteSquareOuterDiv">
+        <div className="carouselWhiteSquareInnerDiv">
+          <img src={whiteSquare} alt="white square" className="carouselWhiteSquare" />
+          <p className="carousel-txt"> Placeholder text for the projects! </p>
         </div>
 
         <div
@@ -50,12 +42,9 @@ function Card({ title, image, currentSlide, currentIndex }: any) {
               position: "relative",
             }}
           >
-            <img
-              src={image}
-              alt="title"
-              style={{ objectFit: "cover", width: "100%", height: "100%" }}
-            />
+            <img src={image} alt="title" style={{ objectFit: "cover", width: "100%", height: "100%" }} />
           </div>
+          
           {title && (
             <div
               style={{
