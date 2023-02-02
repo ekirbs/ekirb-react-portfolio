@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Header, Navbar, Footer } from "./components";
+import { Header, Navbar, Figure, Footer } from "./components";
 import { About, Portfolio, Resume, Blog, LoFi, Contact } from './pages'
 
 export default function App() {
@@ -31,6 +31,7 @@ export default function App() {
     <div>
       <Header />
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Figure />
       {renderPage()}
       <Footer />
     </div>
