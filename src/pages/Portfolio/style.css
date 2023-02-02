@@ -18,6 +18,12 @@
 
 /* NEWLY ADDED */
 
+.projectCarousel {
+  max-width: 50%;
+  height: auto;
+  margin: 2em;
+}
+
 .projects-section {
 
   display: grid;
