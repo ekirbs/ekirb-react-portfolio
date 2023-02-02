@@ -33,15 +33,21 @@
   justify-content: space-between;
 } */
 
-.footer-section {
+/* .footer-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-bottom: 2em; */
+  padding-bottom: 2em;
+} */
+
+/* .footer a:hover {
+  opacity: 100%;
+} */
+
+.footerZoom {
+  transition: transform 0.2s;
 }
 
-.footer-section a img {
-  height: 8vh;
-  width: 8vh;
-  border-radius: 10%;
+.footerZoom:hover {
+  transform: scale(1.1);
 }

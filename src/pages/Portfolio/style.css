@@ -1,9 +1,9 @@
-.cardCard {
+.portfolioCard {
   margin: 2em;
   background: #e8eaf6;
 }
 
-.cardHeading {
+.portfolioCardHeading {
   background: #3f51b5;
   min-height: 4em;
   line-height: .5em;
@@ -12,7 +12,7 @@
   padding: 2em;
 }
 
-.cardContent {
+.portfolioCardContent {
   padding: 2em;
 }
 
@@ -33,7 +33,7 @@
   height: 100%;
   width: 100%;
   margin: 1%;
-  background-color: #dfdfdf;
+  /* background-color: #dfdfdf; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,22 +51,22 @@
   width: 100%;
 }
 
-.card-main {
-  width: 0;
-  /* height: 0; */
-  margin: 2px;
-  min-width: 100%;
-  min-height: 100%;
-  grid-area: 1 / 1 / span 1 / span 2;
-}
-
-.card-alt {
+/* .card-main {
   width: 0;
   height: 0;
   margin: 2px;
   min-width: 100%;
   min-height: 100%;
-}
+  grid-area: 1 / 1 / span 1 / span 2;
+} */
+
+/* .card-alt {
+  width: 0;
+  height: 0;
+  margin: 2px;
+  min-width: 100%;
+  min-height: 100%;
+} */
 
 .img-text {
   position: absolute;
@@ -80,14 +80,14 @@
   opacity: 75%;
 }
 
-a:hover {
+.projectCard a:hover {
   opacity: 100%;
 }
 
-.zoom {
+.projectZoom {
   transition: transform 0.2s;
 }
 
-.zoom:hover {
+.projectZoom:hover {
   transform: scale(1.025);
 }

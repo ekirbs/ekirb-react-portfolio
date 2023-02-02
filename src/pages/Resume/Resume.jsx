@@ -4,9 +4,9 @@ import "./style.css";
 
 export default function Contact() {
   return (
-    <div className="cardCard">
-      <h1 className="cardHeading">My Resume</h1>
-      <p className="cardContent">
+    <div className="resumeCard">
+      <h1 className="resumeCardHeading">My Resume</h1>
+      <p className="resumeCardContent">
         `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
         illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -21,7 +21,7 @@ export default function Contact() {
         quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
         voluptas nulla pariatur?`
       </p>
-      <p className="cardContent">
+      <p className="resumeCardContent">
         `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
         illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -36,7 +36,7 @@ export default function Contact() {
         quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
         voluptas nulla pariatur?`
       </p>
-      <p className="cardContent">
+      <p className="resumeCardContent">
         `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
         illo inventore veritatis et quasi architecto beatae vitae dicta sunt

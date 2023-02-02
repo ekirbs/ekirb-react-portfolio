@@ -6,9 +6,9 @@ import "./style.css";
 export default function About() {
   return (
     <div className="aboutCard">
-      <h1 className="cardHeading">About Me</h1>
+      <h1 className="aboutCardHeading">About Me</h1>
       <div className="aboutMain">
-        <p className="cardContent col-9">Hello! My name is Eric Kirberger and I am an aspiring Full Stack Web Developer. I am currently in the Rutgers Coding Bootcamp, with a constantly improving knowledge of important programming technologies, including: </p>
+        <p className="aboutCardContent col-9">Hello! My name is Eric Kirberger and I am an aspiring Full Stack Web Developer. I am currently in the Rutgers Coding Bootcamp, with a constantly improving knowledge of important programming technologies, including: </p>
         <img src={thinkingRobot} alt="A robot sitting and thinking."></img>
       </div>
       <ul>

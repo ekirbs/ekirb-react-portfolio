@@ -1,16 +1,16 @@
-.cardCard {
+.contactCard {
   margin: 2em;
   background: #e8eaf6;
 }
 
-.cardCard img {
+.contactCard img {
   max-width: auto;
   max-height: 10em;
   border: .25em solid black;
   border-radius: 2em;
 }
 
-.cardHeading {
+.contactCardHeading {
   background: #3f51b5;
   min-height: 4em;
   line-height: .5em;
@@ -19,7 +19,7 @@
   padding: 2em;
 }
 
-.cardContent {
+.contactCardContent {
   padding: 2em;
 }
 
@@ -30,15 +30,15 @@
   justify-content: center;
 }
 
-.form {
+.contactForm {
   margin: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.form input,
-.form textarea {
+.contactForm input,
+.contactForm textarea {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -47,4 +47,14 @@
   text-align: center;
   box-shadow: .25em .25em .5em black;
   width: 50%;
+}
+
+.contactForm button {
+  box-shadow: .25em .25em .5em black;
+  transition: transform 0.2s;
+}
+
+.contactForm button:hover {
+  box-shadow: .275em .275em .55em black;
+  transform: scale(1.1);
 }

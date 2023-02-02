@@ -4,12 +4,12 @@ import "./style.css";
 
 export default function Contact() {
   return (
-    <div className="cardCard">
-      <h1 className="cardHeading">Hangout Room</h1>
-      <p className="cardContent">
+    <div className="loFiCard">
+      <h1 className="loFiCardHeading">Hangout Room</h1>
+      <p className="loFiCardContent">
         Put in a nice stylized dayjs api display here.  Also a music generator, maybe even a place to play a game.  People should want to hang out on my portfolio.
       </p>
-      <p className="cardContent">
+      <p className="loFiCardContent">
         `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
         illo inventore veritatis et quasi architecto beatae vitae dicta sunt

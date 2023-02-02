@@ -1,9 +1,38 @@
-import React from 'react';
-import PortfolioContainer from "./PortfolioContainer";
+import React, { useState } from 'react';
 
-const App = () => <PortfolioContainer />;
+import { Header, Navbar, Footer } from "./components";
+import { About, Portfolio, Resume, Blog, LoFi, Contact } from './pages'
 
-export default App;
+export default function App() {
+  const [currentPage, setCurrentPage] = useState('About');
 
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    if (currentPage === 'Blog') {
+      return <Blog />;
+    }
+    if (currentPage === 'LoFi') {
+      return <LoFi />;
+    }
+    return <Contact />;
+  };
 
-// is this an unnecessary middleman?
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <Header />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+      <Footer />
+    </div>
+  );
+}

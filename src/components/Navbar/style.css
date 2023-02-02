@@ -11,3 +11,17 @@
   color: white;
   padding: 0 2em;
 }
+
+.navHeader a:hover {
+  opacity: 100%;
+}
+
+.navHeader {
+  transition: transform 0.2s;
+  transition: background-color 1s ease-out 100ms;
+}
+
+.navHeader a:hover {
+  transform: scale(1.025);
+  background-color: #e8eaf6;
+}
