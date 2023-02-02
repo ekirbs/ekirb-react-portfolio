@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 
 import "./style.css";
 
-import { checkPassword, validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
 
   const [email, setEmail] = useState("");
-  const [userName, setUserName] = useState("");
-  const [password, setPassword] = useState("");
+  const [contactName, setContactName] = useState("");
+  const [textArea, setTextArea] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
@@ -16,22 +16,66 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    if (inputType === "email") {
+    if (inputType === "contactName") {
+      setContactName(inputValue);
+    } else if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === "username") {
-      setUserName(inputValue);
     } else {
-      setPassword(inputValue);
+      setTextArea(inputValue);
     }
   };
 
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
 
+    if (!validateEmail(email) || !contactName) {
+      setErrorMessage("Either you didn't enter a name, or the email address you entered is invalid.");
+      return;
+    }
 
+    alert(`Welcome to the jungle, ${contactName}!`);
+
+    setContactName("");
+    setEmail("");
+    setTextArea("");
+  }
 
 
   return (
     <div className="cardCard">
       <h1 className="cardHeading">Contact Me</h1>
+      <div>
+        <p>Hi {contactName}</p>
+        <form className="form">
+          <input
+            value={contactName}
+            name="contactName"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Your Name"
+          />
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="Email"
+          />
+          <input
+            value={textArea}
+            name="textArea"
+            onChange={handleInputChange}
+            type="textArea"
+            placeholder="Text Area"
+          />
+          <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>Send It</button>
+        </form>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </div>
       {/* <form>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -41,10 +85,6 @@ export default function Contact() {
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Password</label>
           <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form> */}
