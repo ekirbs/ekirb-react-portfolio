@@ -145,3 +145,32 @@
   bottom: 2rem;
   left: 1rem;
 }
+
+.carouselImageOuterDiv {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselImageInnerDiv {
+  width: 25em;
+  height: 20em;
+  overflow: hidden;
+  position: relative;
+}
+
+.projectImgLocation {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.carouselTitleDiv {
+  margin-top: 24px;
+  font-weight: 600px;
+  font-size: 28px;
+  line-height: 150%;
+  color: #FDFDFD;
+}

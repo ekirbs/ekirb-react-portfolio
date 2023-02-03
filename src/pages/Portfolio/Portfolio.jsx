@@ -2,6 +2,7 @@ import React from 'react';
 
 import Carousel3d from "../../components/Card/carousel3d";
 import CarouselCard from "../../components/Card/carouselCard";
+import projects from "./projects";
 
 import { dailySchedulePlanner, theBigQuiz, natParkTravelGuide, randomPasswordGenerator, weatherForecast } from './images';
 

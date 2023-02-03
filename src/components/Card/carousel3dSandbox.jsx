@@ -4,7 +4,7 @@ import { config } from "react-spring";
 import { Carousel } from "react-carousel-card-3d";
 
 export default function Carousel3d({ cards, offset }) {
-  const table = cards.map((element, index) => {
+  const table = cards.map((element: any, index: number) => {
     return { ...element, index, onClick: () => setGoToSlide(index) };
   });
 

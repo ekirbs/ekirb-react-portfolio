@@ -3,7 +3,7 @@ import { useSpring, animated } from "react-spring";
 
 import whiteSquare from "./images/white-square.png";
 
-function Card({ title, description, image, currentSlide, currentIndex }) {
+function Card({ title, description, technologies, url, img, img_alt, image, currentSlide, currentIndex }: any) {
   const [show, setShown] = useState(false);
 
   const styles = useSpring({
@@ -13,7 +13,6 @@ function Card({ title, description, image, currentSlide, currentIndex }) {
       : "0 2px 10px rgb(0 0 0 / 8%)",
       borderRadius: "2em",
   });
-  
   return (
     <animated.div
       style={{ ...styles, height: "fit-content" }}
@@ -28,7 +27,8 @@ function Card({ title, description, image, currentSlide, currentIndex }) {
 
         <div className="carouselImageOuterDiv">
           <div className="carouselImageInnerDiv">
-            <img src={image} alt="title" className="projectImgLocation" />
+            <a href="https://ekirbs.github.io/daily-schedule-planner/" target="_blank" rel="noreferrer"><img src={image} alt="title" style={{ objectFit: "cover", width: "100%", height: "100%" }} /></a>
+            {/* <img src={image} alt="title" style={{ objectFit: "cover", width: "100%", height: "100%" }} /> */}
           </div>
           
           {title && (
