@@ -6,6 +6,20 @@ export default function Contact() {
   return (
     <div className="resumeCard">
       <h1 className="resumeCardHeading">My Resume</h1>
+      <div className="resumeCardContent">
+        <h2>My Proficiencies:</h2>
+        <ul>
+          <li>MongoDB/Mongoose</li>
+          <li>Express.js</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>MySQL/Sequelize</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>And More!</li>
+        </ul>
+      </div>
       <p className="resumeCardContent">
         `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab

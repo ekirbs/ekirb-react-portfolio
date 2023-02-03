@@ -14,31 +14,37 @@ function Card({ title, description, technologies, url, img, img_alt, image, curr
       borderRadius: "2em",
   });
   return (
-    <animated.div
-      style={{ ...styles, height: "fit-content" }}
-      onMouseEnter={() => setShown(true)}
-      onMouseLeave={() => setShown(false)}
-    >
-      <div className="carouselWhiteSquareOuterDiv">
-        <div className="carouselWhiteSquareInnerDiv">
-          <img src={whiteSquare} alt="white square" className="carouselWhiteSquare" />
-          <p className="carousel-txt"> {description} </p>
-        </div>
-
-        <div className="carouselImageOuterDiv">
-          <div className="carouselImageInnerDiv">
-            <a href="https://ekirbs.github.io/daily-schedule-planner/" target="_blank" rel="noreferrer"><img src={image} alt="title" style={{ objectFit: "cover", width: "100%", height: "100%" }} /></a>
-            {/* <img src={image} alt="title" style={{ objectFit: "cover", width: "100%", height: "100%" }} /> */}
-          </div>
-          
-          {title && (
-            <div className="carouselTitleDiv">
-              {title}
+    {
+      // key: e + 1,
+      content: (
+        <animated.div
+          style={{ ...styles, height: "fit-content" }}
+          onMouseEnter={() => setShown(true)}
+          onMouseLeave={() => setShown(false)}
+        >
+          <div className="carouselWhiteSquareOuterDiv">
+            <div className="carouselWhiteSquareInnerDiv">
+              <img src={whiteSquare} alt="white square" className="carouselWhiteSquare" />
+              <p className="carousel-txt"> {description} </p>
             </div>
-          )}
-        </div>
-      </div>
-    </animated.div>
+
+            <div className="carouselImageOuterDiv">
+              <div className="carouselImageInnerDiv">
+                <a href="https://ekirbs.github.io/daily-schedule-planner/" target="_blank" rel="noreferrer"><img src={image} alt="title" style={{ objectFit: "cover", width: "100%", height: "100%" }} /></a>
+                {/* <img src={image} alt="title" style={{ objectFit: "cover", width: "100%", height: "100%" }} /> */}
+              </div>
+              
+              {title && (
+                <div className="carouselTitleDiv">
+                  {title}
+                </div>
+              )}
+            </div>
+          </div>
+        </animated.div>
+      )
+    }
+    
   );
 }
 

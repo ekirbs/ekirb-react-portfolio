@@ -20,14 +20,14 @@ export default function Portfolio() {
                 key: 1,
                 content: (
                   // <a href="https://ekirbs.github.io/daily-schedule-planner/" target="_blank" rel="noreferrer"><CarouselCard title="Daily Schedule Planner" image={dailySchedulePlanner} /></a>
-                  <CarouselCard title="Daily Schedule Planner" image={dailySchedulePlanner} className="projectImg" />
+                  <CarouselCard title={"Daily Schedule Planner"} image={dailySchedulePlanner} description={"Stock text"} className="projectImg" />
                 ),
               },
               {
                 key: 2,
                 content: (
                   // <a href="https://ekirbs.github.io/the-big-quiz/" target="_blank" rel="noreferrer"><CarouselCard title="the BIG quiz" image={theBigQuiz} /></a>
-                  <CarouselCard title="the BIG quiz" image={theBigQuiz} className="projectImg" />
+                  <CarouselCard title={"the BIG quiz"} image={theBigQuiz} className="projectImg" />
                 ),
               },
               {

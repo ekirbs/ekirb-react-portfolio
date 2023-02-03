@@ -75,7 +75,7 @@ export default function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-      </div>
+      </div>      
       <p className="contactCardContent">
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
