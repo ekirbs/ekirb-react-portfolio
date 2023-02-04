@@ -2,6 +2,7 @@
   margin: 2em;
   background: #e8eaf6;
   border-radius: 3em 3em 2em 2em;
+  padding-bottom: 2em;
 }
 
 .portfolioCardHeading {
@@ -20,6 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2em;
 }
 
 /* NEWLY ADDED */
@@ -121,6 +123,8 @@
   backdrop-filter: blur(22px);
   position: relative;
   border-radius: 2em;
+  height: 30em;
+  /* margin: 2em; */
 }
 
 .carouselWhiteSquareInnerDiv {
@@ -128,6 +132,7 @@
   width: 100%;
   height: 100%;
   border-radius: 2em;
+  border: .1em solid black;
 }
 
 .carouselWhiteSquareInnerDiv img {
@@ -144,6 +149,8 @@
   position: absolute;
   bottom: 2rem;
   left: 1rem;
+  /* padding: 1em; */
+  margin: 1em;
 }
 
 .carouselImageOuterDiv {
@@ -168,9 +175,10 @@
 }
 
 .carouselTitleDiv {
-  margin-top: 24px;
-  font-weight: 600px;
-  font-size: 28px;
-  line-height: 150%;
-  color: #FDFDFD;
+  /* margin-top: 24px; */
+  /* font-weight: 600px; */
+  font-size: 2em;
+  /* line-height: 150%; */
+  color: black;
+  z-index: 1;
 }

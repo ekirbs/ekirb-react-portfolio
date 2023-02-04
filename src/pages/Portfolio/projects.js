@@ -56,7 +56,7 @@ const Projects = [
   },
   {
     "id": 5,
-    "title": "Weather Forecast",
+    "title": "Weather Forecast Finder",
     "description": "Uses OpenWeatherApi to search for a location and display the weather forecast.",
     "technologies": [
       "HTML",
@@ -76,7 +76,7 @@ const Projects = [
       "CSS",
       "JavaScript"
     ],
-    "url": "#",
+    "url": "https://boston-street-cuisine-app.herokuapp.com/",
     "img": "#",
     "img_alt": ""
   },
