@@ -1,6 +1,7 @@
 .contactCard {
   margin: 2em;
-  background: #e8eaf6;
+  background: black;
+  /* background: #e8eaf6; */
   border-radius: 3em 3em 2em 2em;
 }
 
@@ -12,17 +13,19 @@
 }
 
 .contactCardHeading {
-  background: #3f51b5;
+  background: #3B3B38;
+  /* background: #3f51b5; */
   min-height: 4em;
   line-height: .5em;
   font-size: 1.2rem;
-  color: white;
+  color: #FFFDD0;
   padding: 2em;
   border-radius: 2em 2em 0 0;
 }
 
 .contactCardContent {
   padding: 2em;
+  color: #FFFDD0;
 }
 
 /* NEWLY ADDED */

@@ -24,9 +24,9 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import "./partials/player";
-@import "./partials/song";
-@import "./partials/library";
-@import "./partials/libraryMusic";
-@import "./partials/nav";
-@import "./partials/landing";
+@import "./Partials/_song.css";
+@import "./Partials/_player.css";
+@import "./Partials/_library.css";
+@import "./Partials/_libraryMusic.css";
+@import "./Partials/_nav.css";
+@import "./Partials/_landing.css";

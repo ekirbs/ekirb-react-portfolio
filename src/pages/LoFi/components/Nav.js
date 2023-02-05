@@ -4,7 +4,7 @@ import { faMusic } from "@fortawesome/free-solid-svg-icons";
 export default function Nav({ librarystatus, setLibrarystatus }) {
   return (
     <nav className="lofiNav">
-      <h1>Lofify: Lofi Music Player</h1>
+      {/* <h1>Lofify: Lofi Music Player</h1> */}
       <button
         className="btn lofiNavBtn"
         onClick={() => {

@@ -19,6 +19,12 @@
 
 .time-control p {
   padding: 1rem;
+  color: #FFFDD0;
+}
+
+.time-control input {
+  background: black;
+
 }
 
 .play-control {
@@ -30,6 +36,8 @@
 
 .play-control svg {
   cursor: pointer;
+  color: #FFFDD0;
+  /* margin: 1em; */
 }
 
 .volume {

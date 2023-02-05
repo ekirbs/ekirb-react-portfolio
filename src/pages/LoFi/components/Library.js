@@ -20,7 +20,7 @@ export default function Library({
     <div className={`library-container ${librarystatus ? "show-library" : ""}`}>
       <div className="library-nav">
         <h2>Library</h2>
-        <select onChange={(e) => setSelectedCategory(e.target.value)}>
+        <select className="libraryNavSelect" onChange={(e) => setSelectedCategory(e.target.value)}>
           <option value="default">Lofi Category:</option>
           <option value="hip-hop">hip-hop</option>
           <option value="indian">Indian Lofi</option>

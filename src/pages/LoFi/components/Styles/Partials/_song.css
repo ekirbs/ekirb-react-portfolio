@@ -16,6 +16,7 @@
 .song-container h1 {
   padding: 0.5rem;
   font-size: 1.5rem;
+  color: #FFFDD0;
 }
 
 .song-container h4 {
@@ -28,7 +29,8 @@
 .song-container h2,
 .song-container h3,
 .song-container h4 {
-  color: rgb(55, 48, 59);
+  /* color: rgb(55, 48, 59); */
+  color: #FFFDD0;
 }
 
 .rotate-animation {
