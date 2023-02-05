@@ -1,16 +1,24 @@
 .portfolioCard {
   margin: 2em;
-  background: #e8eaf6;
+  background: black;
+  /* background: #e8eaf6; */
   border-radius: 3em 3em 2em 2em;
   padding-bottom: 2em;
+  /* background: #e8eaf6(251,251,251, 0.1); */
+  /* height: 100%;
+  width: 100%; */
+  background-image: url(./images/bulb4.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .portfolioCardHeading {
-  background: #3f51b5;
+  background: #3B3B38;
   min-height: 4em;
   line-height: .5em;
   font-size: 1.2rem;
-  color: white;
+  /* background: black; */
+  color: #FFFDD0;
   padding: 2em;
   border-radius: 2em 2em 0 0;
 }
@@ -33,7 +41,6 @@
 }
 
 .projects-section {
-
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(3, 1fr);
@@ -55,6 +62,7 @@
   text-align: flex-end;
   overflow: hidden;
   min-width: 25%;
+  /* background-color: #3B3B38 ; */
 }
 
 .projectCard a {

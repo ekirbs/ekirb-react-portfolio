@@ -1,6 +1,10 @@
 .footer {
-  background: #424242;
-  height: 12vh;
+    /* background: linear-gradient(white, black);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text; */
+  background: black;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -10,6 +14,7 @@
   height: 8vh;
   width: 8vh;
   border-radius: 10%;
+  margin-right: .75em;
 }
 
 /* .footer img {
@@ -19,19 +24,19 @@
   border-radius: 2em;
 } */
 
-/* .footer a h1 {
+.footer a {
   margin: 0;
-  padding-top: 1em;
+  /* padding-top: 1em; */
   text-align: center;
   color: #bdbdbd;
-  font-size: 3rem;
-} */
+  /* font-size: 3rem; */
+}
+
+.footer a:hover {
+  color: #FFFDD0;
+}
 
 /* NEWLY ADDED */
-/* .footer {
-  display: flex;
-  justify-content: space-between;
-} */
 
 /* .footer-section {
   display: flex;

@@ -3,6 +3,7 @@
   "author": "Eric Kirberger",
   "version": "0.1.0",
   "description": "The portfolio of Eric Kirberger || Full Stack Web Developer.",
+  "license": "MIT",
   "homepage": "https://ekirb.github.io/ekirb-react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

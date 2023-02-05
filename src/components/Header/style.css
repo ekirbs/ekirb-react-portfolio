@@ -1,12 +1,36 @@
-.header {
+/* .header {
   background: #424242;
   height: 12vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
+} */
+
+.header {
+  background: linear-gradient(white, black);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* text-decoration: underline; */
 }
 
+/* .header:hover {
+  background: #424242;
+} */
+
 .header a h1 {
+  margin: 0;
+  padding-top: 1vh;
+  text-align: center;
+  color: #bdbdbd;
+  font-size: 3rem;
+}
+
+.header a h1:hover {
   margin: 0;
   padding-top: 1vh;
   text-align: center;

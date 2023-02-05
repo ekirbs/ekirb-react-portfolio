@@ -1,12 +1,11 @@
 .aboutCard {
-  height: 75vh;
-  /* margin: 2em;
+  margin: 2em;
   background: #e8eaf6;
-  border-radius: 3em 3em 2em 2em; */
+  border-radius: 3em 3em 2em 2em;
   /* opacity: 50%; */
 }
 
-/* .aboutCardHeading {
+.aboutCardHeading {
   background: #3f51b5;
   min-height: 4em;
   line-height: .5em;
@@ -14,11 +13,10 @@
   color: white;
   padding: 2em;
   border-radius: 2em 2em 0 0;
-} */
+}
 
 .aboutCardContent {
   padding: 2em;
-  color: white;
 }
 
 .aboutMain {
@@ -31,11 +29,8 @@
   border: .05em solid black;
   border-radius: 2em;
   box-shadow: .75em .75em 1em black;
-  /* margin: 35vh 40vh; */
+  margin: 2em 2em 4em 2em;
   /* margin-bottom: 30vh; */
-  height: 15vw;
-  width: 15vw;
-  position: absolute;
-  bottom: 12vh;
-  right: 3vw;
+  height: 25vw;
+  width: 25vw;
 }

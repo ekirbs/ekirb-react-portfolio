@@ -21,6 +21,7 @@ export default function Contact() {
         </ul>
       </div>
       <p className="resumeCardContent">
+        Hello! My name is Eric Kirberger and I am an aspiring Full Stack Web Developer. I am currently in the Rutgers Coding Bootcamp building a growing list of important skills and proficiencies.  I am a former fencing instructor and teacher, and I have a Bachelor's Degree in Philosophy from Rutgers University!
         `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
         illo inventore veritatis et quasi architecto beatae vitae dicta sunt

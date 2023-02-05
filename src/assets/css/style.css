@@ -1,3 +1,12 @@
+:root {
+  --dark-background: #42a5f5;
+  --light-background: #90caf9;
+  --dark-highlight: #1e88e5;
+  --yellow-highlight: #ffff00;
+  --sunset-orange: #ff9933;
+  --white: #ffffff;
+}
+
 .base {
 background: url(../images/bulb-standout.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;

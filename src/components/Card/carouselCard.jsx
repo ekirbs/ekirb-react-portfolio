@@ -3,7 +3,7 @@ import { useSpring, animated } from "react-spring";
 
 import whiteSquare from "./images/white-square.png";
 
-function Card({ title, description, image, currentSlide, currentIndex }) {
+function Card({ title, description, image, url, currentSlide, currentIndex }) {
   const [show, setShown] = useState(false);
 
   const styles = useSpring({
@@ -33,7 +33,8 @@ function Card({ title, description, image, currentSlide, currentIndex }) {
           
           {title && (
             <div className="carouselTitleDiv">
-              {title}
+              <a href={url} target="_blank" rel="noreferrer">{title}</a>
+              {/* {title} */}
             </div>
           )}
         </div>
