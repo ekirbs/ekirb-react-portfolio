@@ -45,7 +45,7 @@ export default function Contact() {
     <div className="contactCard">
       <h1 className="contactCardHeading">Contact Me</h1>
       <div className ="contactContainer">
-        <p>Hi {contactName}</p>
+        <h3 className="contactCardContent">Hi {contactName}!!</h3>
         <form className="contactForm">
           <input
             value={contactName}
@@ -53,6 +53,7 @@ export default function Contact() {
             onChange={handleInputChange}
             type="text"
             placeholder="Your Name"
+            className="contactArea"
           />
           <input
             value={email}
@@ -60,6 +61,7 @@ export default function Contact() {
             onChange={handleInputChange}
             type="email"
             placeholder="Email"
+            className="contactArea"
           />
           <textarea
             value={textArea}
@@ -67,8 +69,9 @@ export default function Contact() {
             onChange={handleInputChange}
             type="textArea"
             placeholder="Text Area"
+            className="contactArea"
           />
-          <button type="button" className="btn btn-primary" onClick={handleFormSubmit}>Send It</button>
+          <button type="button" className="btn btn-secondary" onClick={handleFormSubmit}>Send It</button>
         </form>
         {errorMessage && (
           <div>

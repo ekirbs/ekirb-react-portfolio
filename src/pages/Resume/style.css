@@ -21,4 +21,18 @@
 
 .resumeCardContent {
   padding: 2em;
+  margin: 2vw;
+}
+
+.resume-img {
+  height: 20vh;
+  width: auto;
+  opacity: 75%;
+  margin-left: 7.5vw;
+  transition: transform 0.2s;
+}
+
+.resume-img:hover {
+  opacity: 100%;
+  transform: scale(1.1);
 }

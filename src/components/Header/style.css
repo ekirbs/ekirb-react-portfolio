@@ -7,7 +7,7 @@
 } */
 
 .header {
-  background: linear-gradient(white, black);
+  background: linear-gradient(#FFFDD0, black);
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;

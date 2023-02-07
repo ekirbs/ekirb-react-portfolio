@@ -25,14 +25,13 @@
 
 .contactCardContent {
   padding: 2em;
-  color: #FFFDD0;
 }
 
 /* NEWLY ADDED */
-.contactContainer p {
-  margin: 2em;
+.contactContainer h3 {
   display: flex;
   justify-content: center;
+  color: #FFFDD0;
 }
 
 .contactForm {
@@ -66,3 +65,9 @@
   box-shadow: .275em .275em .55em black;
   transform: scale(1.1);
 }
+
+.contactArea {
+  background-color: #3B3B38;
+  color: #FFFDD0;
+}
+
