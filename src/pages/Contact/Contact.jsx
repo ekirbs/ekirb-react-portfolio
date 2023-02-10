@@ -6,38 +6,42 @@ import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
 
-  const [email, setEmail] = useState("");
-  const [contactName, setContactName] = useState("");
-  const [textArea, setTextArea] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [contactName, setContactName] = useState("");
+  // const [textArea, setTextArea] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [formInput, setFormInput] = useState({ name: "", email: "", message: "" })
 
-  const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
+  // const handleInputChange = (e) => {
+  //   const { target } = e;
+  //   const inputType = target.name;
+  //   const inputValue = target.value;
 
-    if (inputType === "contactName") {
-      setContactName(inputValue);
-    } else if (inputType === "email") {
-      setEmail(inputValue);
-    } else {
-      setTextArea(inputValue);
-    }
-  };
+  //   if (inputType === "contactName") {
+  //     setContactName(inputValue);
+  //   } else if (inputType === "email") {
+  //     setEmail(inputValue);
+  //   } else {
+  //     setTextArea(inputValue);
+  //   }
+  // };
+  console.log(formInput);
+
+  const handleInputChange = (e) => setFormInput({ ...formInput, [e.target.name]: e.target.value }); // square brackets in object denotes key 
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !contactName) {
+    if (!validateEmail(formInput.email) || !formInput.name) {
       setErrorMessage("Either you didn't enter a name, or the email address you entered is invalid.");
       return;
     }
 
     alert(`Welcome to the jungle, ${contactName}!`);
 
-    setContactName("");
-    setEmail("");
-    setTextArea("");
+    // setContactName("");
+    // setEmail("");
+    // setTextArea("");
   }
 
 
@@ -48,15 +52,15 @@ export default function Contact() {
         <h3 className="contactCardContent">Hi {contactName}!!</h3>
         <form className="contactForm">
           <input
-            value={contactName}
-            name="contactName"
+            value={formInput.name}
+            name="name"
             onChange={handleInputChange}
             type="text"
             placeholder="Your Name"
             className="contactArea"
           />
           <input
-            value={email}
+            value={formInput.email}
             name="email"
             onChange={handleInputChange}
             type="email"
@@ -64,8 +68,8 @@ export default function Contact() {
             className="contactArea"
           />
           <textarea
-            value={textArea}
-            name="textArea"
+            value={formInput.message}
+            name="message"
             onChange={handleInputChange}
             type="textArea"
             placeholder="Text Area"
