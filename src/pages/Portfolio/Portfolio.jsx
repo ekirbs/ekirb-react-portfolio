@@ -4,7 +4,7 @@ import Carousel3d from "../../components/Card/carousel3d";
 import CarouselCard from "../../components/Card/carouselCard";
 // import projects from "./projects";
 
-import { dailySchedulePlanner, theBigQuiz, natParkTravelGuide, randomPasswordGenerator, weatherForecast, bostonStreetCuisine } from './images';
+import { dailySchedulePlanner, theBigQuiz, natParkTravelGuide, randomPasswordGenerator, weatherForecast, bostonStreetCuisine, taskSandwich } from './images';
 
 import "./style.css";
 
@@ -19,6 +19,17 @@ export default function Portfolio() {
               {
                 key: 1,
                 content: (
+                  <CarouselCard
+                  title={"Task Sandwich"}
+                  image={taskSandwich}
+                  description={"A MERN task-management system with built in rewards system."}
+                  url={"https://task-sandwich.herokuapp.com/"}
+                  className="projectImg" />
+                ),
+              },
+              {
+                key: 2,
+                content: (
                   // <a href="https://boston-street-cuisine-app.herokuapp.com/" target="_blank" rel="noreferrer"><CarouselCard title="Boston Street Cuisine" image={theBigQuiz} /></a>
                   <CarouselCard
                     title={"Boston Street Cuisine"}
@@ -29,7 +40,7 @@ export default function Portfolio() {
                 ),
               },
               {
-                key: 2,
+                key: 3,
                 content: (
                   // <a href="https://ekirbs.github.io/daily-schedule-planner/" target="_blank" rel="noreferrer"><CarouselCard title="Daily Schedule Planner" image={dailySchedulePlanner} /></a>
                   <CarouselCard
@@ -41,7 +52,7 @@ export default function Portfolio() {
                 ),
               },
               {
-                key: 3,
+                key: 4,
                 content: (
                   // <a href="https://ekirbs.github.io/the-big-quiz/" target="_blank" rel="noreferrer"><CarouselCard title="the BIG quiz" image={theBigQuiz} /></a>
                   <CarouselCard
@@ -53,7 +64,7 @@ export default function Portfolio() {
                 ),
               },
               {
-                key: 4,
+                key: 5,
                 content: (
                   // <a href="https://ekirbs.github.io/national-park-travelers-guide/" target="_blank" rel="noreferrer"><CarouselCard title="Nat Park Travel Guide" image={natParkTravelGuide} /></a>
                   <CarouselCard
@@ -65,7 +76,7 @@ export default function Portfolio() {
                 ),
               },
               {
-                key: 5,
+                key: 6,
                 content: (
                   // <a href="https://ekirbs.github.io/random-password-generator/" target="_blank" rel="noreferrer"><CarouselCard title="Random Password Generator" image={randomPasswordGenerator} /></a>
                   <CarouselCard
@@ -77,7 +88,7 @@ export default function Portfolio() {
                 ),
               },
               {
-                key: 6,
+                key: 7,
                 content: (
                   // <a href="https://ekirbs.github.io/weather-forecast-finder/" target="_blank" rel="noreferrer"><CarouselCard title="Weather Forecast" image={weatherForecast} /></a>
                   <CarouselCard

@@ -37,7 +37,7 @@ export default function Contact() {
       return;
     }
 
-    alert(`Welcome to the jungle, ${contactName}!`);
+    // alert(`Welcome to the jungle, ${contactName}!`);
 
     // setContactName("");
     // setEmail("");
@@ -49,7 +49,8 @@ export default function Contact() {
     <div className="contactCard">
       <h1 className="contactCardHeading">Contact Me</h1>
       <div className ="contactContainer">
-        <h3 className="contactCardContent">Hi {contactName}!!</h3>
+      {/* <h3 className="contactCardContent">Hi {contactName}!!</h3> */}
+        {/* <h3 className="contactCardContent">Hi {contactName}!!</h3> */}
         <form className="contactForm">
           <input
             value={formInput.name}
