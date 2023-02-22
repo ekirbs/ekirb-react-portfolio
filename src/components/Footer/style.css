@@ -1,8 +1,4 @@
 .footer {
-    /* background: linear-gradient(white, black);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text; */
   background: black;
   height: 10vh;
   display: flex;
@@ -26,28 +22,13 @@
 
 .footer a {
   margin: 0;
-  /* padding-top: 1em; */
   text-align: center;
   color: #bdbdbd;
-  /* font-size: 3rem; */
 }
 
 .footer a:hover {
   color: #FFFDD0;
 }
-
-/* NEWLY ADDED */
-
-/* .footer-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 2em;
-} */
-
-/* .footer a:hover {
-  opacity: 100%;
-} */
 
 .footerZoom {
   transition: transform 0.2s;
