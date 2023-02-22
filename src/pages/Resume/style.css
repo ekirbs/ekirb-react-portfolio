@@ -1,20 +1,20 @@
 .resumeCard {
   margin: 2em;
-  background: #FFFDD0;
+  background: var(--tertiary);
   /* background: black; */
   border-radius: 3em 3em 2em 2em;
-  color: #FFFDD0;
+  color: var(--tertiary);
   background-image: url(./images/light-bulb.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 }
 
 .resumeCardHeading {
-  background: #3B3B38;
+  background: var(--dark);
   min-height: 4em;
   line-height: .5em;
   font-size: 1.2rem;
-  color: #FFFDD0;
+  color: var(--tertiary);
   padding: 2em;
   border-radius: 2em 2em 0 0;
 }

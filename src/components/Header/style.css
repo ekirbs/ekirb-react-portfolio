@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(#FFFDD0, black);
+  background: linear-gradient(var(--tertiary), var(--black));
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -7,26 +7,13 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* text-decoration: underline; */
 }
 
 .header a h1:hover {
-  color: linear-gradient(white, #FFFDD0);
-  
+  color: linear-gradient(var(--white), var(--tertiary));
 }
 
 .header a h1 {
-  margin: 0;
   padding-top: 1vh;
   text-align: center;
-  color: #bdbdbd;
-  font-size: 3rem;
-}
-
-.header a h1:hover {
-  margin: 0;
-  padding-top: 1vh;
-  text-align: center;
-  color: #bdbdbd;
-  font-size: 3rem;
 }

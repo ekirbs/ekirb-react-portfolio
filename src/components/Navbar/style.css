@@ -1,13 +1,13 @@
 .navCard {
-  background: black;
-  border: 1px solid #FFFDD0;
+  background: var(--black);
+  border: 1px solid var(--tertiary);
 }
 
 .navHeading {
   min-height: 4em;
   line-height: 1em;
   font-size: 1.2rem;
-  color: #FFFDD0;
+  color: var(--tertiary);
   padding: 0 2em;
 }
 
@@ -25,14 +25,14 @@
 }
 
 .navHeader active {
-  color: black;
-  background: #FFFDD0;
+  color: var(--black);
+  background: var(--tertiary);
 }
 
 .navHeader a {
-  color: #808080;
+  color: var(--secondary);
 }
 
 .navHeader a:hover {
-  color: #FFFDD0;
+  color: var(--tertiary);
 }

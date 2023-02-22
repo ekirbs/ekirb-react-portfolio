@@ -4,7 +4,7 @@
 
 .aboutCardContent {
   padding: 2em;
-  color: white;
+  color: var(--white);
 }
 
 .aboutMain {
@@ -12,9 +12,9 @@
 }
 
 .aboutMain img {
-  border: .05em solid black;
+  border: .05em solid var(--black);
   border-radius: 2em;
-  box-shadow: .75em .75em 1em black;
+  box-shadow: .75em .75em 1em var(--black);
   height: 15vw;
   width: 15vw;
   position: absolute;

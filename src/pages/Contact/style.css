@@ -1,35 +1,35 @@
 .contactCard {
   margin: 2em;
-  background: black;
+  background: var(--black);
   border-radius: 3em 3em 2em 2em;
 }
 
 .contactCard img {
   max-width: auto;
   max-height: 10em;
-  border: .25em solid black;
+  border: .25em solid var(--black);
   border-radius: 2em;
 }
 
 .contactCardHeading {
-  background: #3B3B38;
+  background: var(--dark);
   min-height: 4em;
   line-height: .5em;
   font-size: 1.2rem;
-  color: #FFFDD0;
+  color: var(--tertiary);
   padding: 2em;
   border-radius: 2em 2em 0 0;
 }
 
 .contactCardContent {
   padding: 2em;
-  color: #FFFDD0;
+  color: var(--tertiary);
 }
 
 .contactContainer h3 {
   display: flex;
   justify-content: center;
-  color: #FFFDD0;
+  color: var(--tertiary);
 }
 
 .contactForm {
@@ -44,27 +44,26 @@
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
-  border: .5em #3f51b5;
-  border: .05em solid black;
+  border: .05em solid var(--black);
   border-radius: .5em;
   text-align: center;
-  box-shadow: .25em .25em .5em black;
+  box-shadow: .25em .25em .5em var(--black);
   width: 50%;
 }
 
 .contactForm button {
-  border: .05em solid black;
-  box-shadow: .25em .25em .5em black;
+  border: .05em solid var(--black);
+  box-shadow: .25em .25em .5em var(--black);
   transition: transform 0.2s;
 }
 
 .contactForm button:hover {
-  box-shadow: .275em .275em .55em black;
+  box-shadow: .275em .275em .55em var(--black);
   transform: scale(1.1);
 }
 
 .contactArea {
-  background-color: #3B3B38;
-  color: #FFFDD0;
+  background-color: var(--dark);
+  color: var(--tertiary);
 }
 

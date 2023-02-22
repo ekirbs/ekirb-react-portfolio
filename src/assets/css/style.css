@@ -3,13 +3,14 @@
 /* ROOT COLOR KEY */
 :root {
   --primary: #424242;
-  --secondary: #7cb342;
-  --tertiary: #bdbdbd;
-  --quatrinary: #eeeeee;
-  --light: #e3e4e3;
-  --dark: #7cb342;
+  --secondary: #808080;
+  --tertiary: #FFFDD0;
+  --quatrinary: #bdbdbd;
+  --light: #dfdfdf;
+  --dark: #3B3B38;
   --white: #ffffff;
   --black: #000000;
+  --highlight: #7cb342;
   --error: rgb(228, 46, 1);
   /* --border-radius: 0.3rem; */
 }

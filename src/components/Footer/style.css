@@ -1,5 +1,5 @@
 .footer {
-  background: black;
+  background: var(--black);
   height: 10vh;
   display: flex;
   align-items: center;
@@ -13,21 +13,14 @@
   margin-right: .75em;
 }
 
-/* .footer img {
-  max-width: auto;
-  max-height: 10em;
-  border: .25em solid black;
-  border-radius: 2em;
-} */
-
 .footer a {
   margin: 0;
   text-align: center;
-  color: #bdbdbd;
+  color: var(--quatrinary);
 }
 
 .footer a:hover {
-  color: #FFFDD0;
+  color: var(--tertiary);
 }
 
 .footerZoom {
