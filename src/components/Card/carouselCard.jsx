@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 
-import whiteSquare from "./images/white-square.png";
-
 function Card({ title, description, image, url, currentSlide, currentIndex }) {
   const [show, setShown] = useState(false);
 
@@ -22,7 +20,6 @@ function Card({ title, description, image, url, currentSlide, currentIndex }) {
     >
       <div className="carouselWhiteSquareOuterDiv">
         <div className="carouselWhiteSquareInnerDiv">
-          <img src={whiteSquare} alt="white square" className="carouselWhiteSquare" />
           <p className="carousel-txt"> {description} </p>
         </div>
 
@@ -31,12 +28,9 @@ function Card({ title, description, image, url, currentSlide, currentIndex }) {
             <img src={image} alt="title" className="projectImgLocation" />
           </div>
           
-          {title && (
-            <div className="carouselTitleDiv">
-              <a href={url} target="_blank" rel="noreferrer">{title}</a>
-              {/* {title} */}
-            </div>
-          )}
+          <div className="carouselTitleDiv">
+            <a href={url} target="_blank" rel="noreferrer">{title}</a>
+          </div>
         </div>
       </div>
     </animated.div>
