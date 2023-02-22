@@ -67,7 +67,7 @@ import Library from "./components/Library";
 import "./style.css";
 import Nav from "./components/Nav";
 // import Landing from "./components/Landing";
-document.title = "Lofify";
+// document.title = "Lofify";
 
 export default function LoFi() {
   const [music, setMusic] = useState(LofiList);

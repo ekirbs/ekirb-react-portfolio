@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import "./assets/css/style.css";
 
 import { Header, Navbar, Footer } from "./components";
-import { About, Portfolio, Resume, Blog, LoFi, Contact } from './pages'
+import { About, Portfolio, Resume, LoFi, Contact } from './pages'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');

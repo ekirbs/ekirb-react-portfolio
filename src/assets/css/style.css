@@ -1,17 +1,31 @@
+/* |||| GLOBAL STYLE |||| */
+
+/* ROOT COLOR KEY */
 :root {
-  --dark-background: #42a5f5;
-  --light-background: #90caf9;
-  --dark-highlight: #1e88e5;
-  --yellow-highlight: #ffff00;
-  --sunset-orange: #ff9933;
+  --primary: #424242;
+  --secondary: #7cb342;
+  --tertiary: #bdbdbd;
+  --quatrinary: #eeeeee;
+  --light: #e3e4e3;
+  --dark: #7cb342;
   --white: #ffffff;
+  --black: #000000;
+  --error: rgb(228, 46, 1);
+  /* --border-radius: 0.3rem; */
+}
+
+/* GLOBAL EFFECTS */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .base {
-background: url(../images/bulb-standout.jpg) no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-min-height: 100vh;
+  background: url(../images/bulb-standout.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
 }

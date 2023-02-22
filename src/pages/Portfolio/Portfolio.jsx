@@ -30,7 +30,6 @@ export default function Portfolio() {
               {
                 key: 2,
                 content: (
-                  // <a href="https://boston-street-cuisine-app.herokuapp.com/" target="_blank" rel="noreferrer"><CarouselCard title="Boston Street Cuisine" image={theBigQuiz} /></a>
                   <CarouselCard
                     title={"Boston Street Cuisine"}
                     image={bostonStreetCuisine}
@@ -42,7 +41,6 @@ export default function Portfolio() {
               {
                 key: 3,
                 content: (
-                  // <a href="https://ekirbs.github.io/daily-schedule-planner/" target="_blank" rel="noreferrer"><CarouselCard title="Daily Schedule Planner" image={dailySchedulePlanner} /></a>
                   <CarouselCard
                   title={"Daily Schedule Planner"}
                   image={dailySchedulePlanner}
@@ -54,7 +52,6 @@ export default function Portfolio() {
               {
                 key: 4,
                 content: (
-                  // <a href="https://ekirbs.github.io/the-big-quiz/" target="_blank" rel="noreferrer"><CarouselCard title="the BIG quiz" image={theBigQuiz} /></a>
                   <CarouselCard
                   title={"The BIG Quiz"}
                   image={theBigQuiz}
@@ -66,7 +63,6 @@ export default function Portfolio() {
               {
                 key: 5,
                 content: (
-                  // <a href="https://ekirbs.github.io/national-park-travelers-guide/" target="_blank" rel="noreferrer"><CarouselCard title="Nat Park Travel Guide" image={natParkTravelGuide} /></a>
                   <CarouselCard
                   title={"Nat Park Travel Guide"}
                   image={natParkTravelGuide}
@@ -78,7 +74,6 @@ export default function Portfolio() {
               {
                 key: 6,
                 content: (
-                  // <a href="https://ekirbs.github.io/random-password-generator/" target="_blank" rel="noreferrer"><CarouselCard title="Random Password Generator" image={randomPasswordGenerator} /></a>
                   <CarouselCard
                   title={"Password Generator"}
                   image={randomPasswordGenerator}
@@ -90,7 +85,6 @@ export default function Portfolio() {
               {
                 key: 7,
                 content: (
-                  // <a href="https://ekirbs.github.io/weather-forecast-finder/" target="_blank" rel="noreferrer"><CarouselCard title="Weather Forecast" image={weatherForecast} /></a>
                   <CarouselCard
                   title={"Weather Forecast"}
                   image={weatherForecast}
