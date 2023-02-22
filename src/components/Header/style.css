@@ -10,8 +10,9 @@
   /* text-decoration: underline; */
 }
 
-.header a:hover {
+.header a h1:hover {
   color: linear-gradient(white, #FFFDD0);
+  
 }
 
 .header a h1 {
