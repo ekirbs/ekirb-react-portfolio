@@ -1,6 +1,7 @@
 .navCard {
   background: var(--black);
-  border: 1px solid var(--tertiary);
+  border-top: 1px solid var(--tertiary);
+  border-bottom: 1px solid var(--tertiary);
 }
 
 .navHeading {
@@ -35,4 +36,24 @@
 
 .navHeader a:hover {
   color: var(--tertiary);
+}
+
+.nav-link {
+  color: var(--tertiary);
+}
+
+.nav-link:hover {
+  color: var(--white);
+}
+
+.nav {
+  color: var(--tertiary);
+}
+
+.nav:hover {
+  color: var(--white);
+}
+
+.nav .nav-item .nav-link.active {
+  color: var(--tertiary) !important;
 }

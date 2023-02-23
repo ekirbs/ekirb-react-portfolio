@@ -1,12 +1,14 @@
 # Eric Kirberger || Web Developer
 
 ---
+---
 ## Description
 
 Hello!  This is my portfolio.  It's a constant WIP, as I develop my skills, but I've seen worse.  I made this portfolio using React.  
 
 Link: [Portfolio](https://ekirbs.github.io/ekirb-react-portfolio/ 'My portfolio, made with React.')
 
+---
 ---
 ## Table of Contents
 
@@ -16,10 +18,12 @@ Link: [Portfolio](https://ekirbs.github.io/ekirb-react-portfolio/ 'My portfolio,
 - [License](#license)
 
 ---
+---
 ## Installation
 
 N/A
 
+---
 ---
 ## Usage
 
@@ -29,6 +33,7 @@ Once the page is opened, the title in the header is the link back to the 'about'
 
 [![Tutorial](./assets/images/sql-tutor-img.png)](https://dropTutorialVideoHereInGihub.com/0000000.mp4))
 
+---
 ---
 ## Credits
 
@@ -42,6 +47,7 @@ For the music player:
 
 Link: [Rahulpal16](https://github.com/rahulpal16/lofify 'Lofify Music Player.')
 
+---
 ---
 ## License
 

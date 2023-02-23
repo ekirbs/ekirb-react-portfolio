@@ -18,9 +18,6 @@ export default function App() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
-    }
     if (currentPage === 'LoFi') {
       return <LoFi />;
     }
