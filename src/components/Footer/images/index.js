@@ -1,5 +1,3 @@
-import twitterLogo from "./twitter-logo.png";
-import githubLogo from "./github-logo.jpg";
-import linkedinLogo from "./linkedin-logo.jpg";
-
-export { twitterLogo, githubLogo, linkedinLogo };
+export { default as twitterLogo } from "./twitter-logo.png";
+export { default as githubLogo } from "./github-logo.jpg";
+export { default as linkedinLogo } from "./linkedin-logo.jpg";

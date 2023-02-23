@@ -1,5 +1,3 @@
-import Header from "./Header"
-import Navbar from './Navbar';
-import Footer from './Footer';
-
-export { Header, Navbar, Footer };
+export { default as Header } from "./Header";
+export { default as Footer } from "./Footer";
+export { default as Navbar } from "./Navbar";
