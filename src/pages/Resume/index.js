@@ -22,7 +22,7 @@ export default function Contact() {
         </ul>
       </div>
       <p className="resumeCardContent">Click on the image to download my resume!</p>
-      <a href="./resume.pdf" download>
+      <a href="./images/resume.pdf" download>
         <img src={resume} alt="My resume." className="resume-img"></img>
       </a>
       <p className="resumeCardContent">
