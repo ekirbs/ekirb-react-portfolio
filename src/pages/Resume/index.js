@@ -1,6 +1,6 @@
 import React from 'react';
 
-import resume from "./images/resume-img.webp"
+import { resumeBtn, resume } from "./images";
 import "./style.css";
 
 export default function Contact() {
@@ -22,8 +22,8 @@ export default function Contact() {
         </ul>
       </div>
       <p className="resumeCardContent">Click on the image to download my resume!</p>
-      <a href="./images/resume.pdf" download>
-        <img src={resume} alt="My resume." className="resume-img"></img>
+      <a href={resume} download>
+        <img src={resumeBtn} alt="My resume." className="resume-img"></img>
       </a>
       <p className="resumeCardContent">
         Hello! My name is Eric Kirberger and I am an aspiring Full Stack Web Developer. I am currently in the Rutgers Coding Bootcamp building a growing list of important skills and proficiencies.  I am a former fencing instructor and teacher, and I have a Bachelor's Degree in Philosophy from Rutgers University!
