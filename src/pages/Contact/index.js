@@ -37,20 +37,18 @@ export default function Contact() {
       return;
     }
 
-    // alert(`Welcome to the jungle, ${contactName}!`);
+    alert(`Welcome to the jungle, ${formInput.name}!`);
 
     // setContactName("");
     // setEmail("");
     // setTextArea("");
   }
 
-
   return (
     <div className="contactCard">
       <h1 className="contactCardHeading">Contact Me</h1>
       <div className ="contactContainer">
-      {/* <h3 className="contactCardContent">Hi {contactName}!!</h3> */}
-        {/* <h3 className="contactCardContent">Hi {contactName}!!</h3> */}
+      <h3 className="contactCardContent">Hi {formInput.name}!</h3>
         <form className="contactForm">
           <input
             value={formInput.name}
@@ -65,7 +63,7 @@ export default function Contact() {
             name="email"
             onChange={handleInputChange}
             type="email"
-            placeholder="Email"
+            placeholder="Your Email"
             className="contactArea"
           />
           <textarea
@@ -79,24 +77,11 @@ export default function Contact() {
           <button type="button" className="btn btn-secondary" onClick={handleFormSubmit}>Send It</button>
         </form>
         {errorMessage && (
-          <div>
+          <div className="error-div">
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
       </div>      
-      <p className="contactCardContent">
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
       <p className="contactCardContent">
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet

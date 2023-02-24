@@ -11,7 +11,7 @@
   display: flex;
 }
 
-.aboutMain img {
+.aboutMain a {
   border: .05em solid var(--black);
   border-radius: 2em;
   box-shadow: .75em .75em 1em var(--black);
@@ -20,4 +20,13 @@
   position: absolute;
   bottom: 12vh;
   right: 3vw;
+}
+
+.contact-link img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: .05em solid var(--black);
+  border-radius: 2em;
+  box-shadow: .75em .75em 1em var(--black);
 }

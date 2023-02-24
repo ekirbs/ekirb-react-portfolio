@@ -8,7 +8,9 @@ export default function About() {
     <div className="aboutCard">
       <div className="aboutMain">
         <p className="aboutCardContent col-6">Hello! My name is Eric Kirberger and I am an aspiring Full Stack Web Developer in the Rutgers Coding Bootcamp.  Please enjoy my portfolio!</p>
-        <img src={thinkingRobot} alt="A robot sitting and thinking."></img>
+        <a href="#contact" className="contact-link">
+          <img src={thinkingRobot} alt="A robot sitting and thinking."></img>
+        </a>
       </div>
     </div>
   );
