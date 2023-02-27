@@ -168,7 +168,7 @@
 
 .carouselTitleDiv a {
   color: var(--black);
-  text-shadow: 2px 2px 4px var(--tertiary);
+  text-shadow: 2px 2px 4px var(--secondary);
 }
 
 .carouselTitleDiv a:hover {

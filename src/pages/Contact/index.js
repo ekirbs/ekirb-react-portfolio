@@ -29,7 +29,7 @@ export default function Contact() {
     <div className="contactCard">
       <h1 className="contactCardHeading">Contact Me</h1>
       <div className ="contactContainer">
-      <h3 className="contactCardContent">Hi {formInput.name}!</h3>
+      <h3 className="contactCardGreeting">Hi {formInput.name}!</h3>
         <form className="contactForm">
           <input
             value={formInput.name}
@@ -37,7 +37,7 @@ export default function Contact() {
             onChange={handleInputChange}
             type="text"
             placeholder="Your Name"
-            className="contactArea"
+            className="contactArea contactNameArea"
           />
           <input
             value={formInput.email}
@@ -45,7 +45,7 @@ export default function Contact() {
             onChange={handleInputChange}
             type="email"
             placeholder="Your Email"
-            className="contactArea"
+            className="contactArea contactEmailArea"
           />
           <textarea
             value={formInput.message}
@@ -53,7 +53,7 @@ export default function Contact() {
             onChange={handleInputChange}
             type="textArea"
             placeholder="Text Area"
-            className="contactArea"
+            className="contactArea contactTextArea"
           />
           <button type="button" className="btn btn-secondary" onClick={handleFormSubmit}>Send It</button>
         </form>
@@ -62,10 +62,12 @@ export default function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-      </div>      
-      <p className="contactCardContent">
-        Send me a message and I'll get back to you as soon as I can.
-      </p>
+      </div>
+      <div className="contactInfoContainer">
+        <p className="contactCardContent">
+          Send me a message and I'll get back to you as soon as I can.
+        </p>
+      </div>
     </div>
   );
 }

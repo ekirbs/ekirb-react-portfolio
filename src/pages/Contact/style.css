@@ -1,5 +1,5 @@
 .contactCard {
-  margin: 2em;
+  margin: 5vw 10vw;
   background: var(--black);
   border-radius: 3em 3em 2em 2em;
 }
@@ -21,8 +21,8 @@
   border-radius: 2em 2em 0 0;
 }
 
-.contactCardContent {
-  padding: 2em;
+.contactCardGreeting {
+  padding: 2vh;
   color: var(--tertiary);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .contactForm {
-  margin: 2em;
+  /* margin: 2em; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,6 +67,15 @@
   color: var(--tertiary);
 }
 
+.contactNameArea,
+.contactEmailArea {
+  height: 5vh;
+}
+
+.contactTextArea {
+  height: 20vh;
+}
+
 .error-div {
   display: flex;
   justify-content: center;
@@ -75,4 +84,15 @@
 
 .error-text {
   color: var(--error);
+}
+
+.contactInfoContainer {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.contactCardContent {
+  padding: 2vh;
+  color: var(--tertiary);
 }
