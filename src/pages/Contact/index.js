@@ -6,25 +6,9 @@ import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
 
-  // const [email, setEmail] = useState("");
-  // const [contactName, setContactName] = useState("");
-  // const [textArea, setTextArea] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [formInput, setFormInput] = useState({ name: "", email: "", message: "" })
 
-  // const handleInputChange = (e) => {
-  //   const { target } = e;
-  //   const inputType = target.name;
-  //   const inputValue = target.value;
-
-  //   if (inputType === "contactName") {
-  //     setContactName(inputValue);
-  //   } else if (inputType === "email") {
-  //     setEmail(inputValue);
-  //   } else {
-  //     setTextArea(inputValue);
-  //   }
-  // };
   console.log(formInput);
 
   const handleInputChange = (e) => setFormInput({ ...formInput, [e.target.name]: e.target.value }); // square brackets in object denotes key 
@@ -39,9 +23,6 @@ export default function Contact() {
 
     alert(`Welcome to the jungle, ${formInput.name}!`);
 
-    // setContactName("");
-    // setEmail("");
-    // setTextArea("");
   }
 
   return (
@@ -83,17 +64,7 @@ export default function Contact() {
         )}
       </div>      
       <p className="contactCardContent">
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+        Send me a message and I'll get back to you as soon as I can.
       </p>
     </div>
   );

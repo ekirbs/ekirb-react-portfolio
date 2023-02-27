@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/ekirb-react-portfolio/static/css/main.d942441b.css",
-    "main.js": "/ekirb-react-portfolio/static/js/main.8c1321a7.js",
+    "main.css": "/ekirb-react-portfolio/static/css/main.cd23eba9.css",
+    "main.js": "/ekirb-react-portfolio/static/js/main.66ce0080.js",
     "static/media/nat-park-travel-guide-screenshot.png": "/ekirb-react-portfolio/static/media/nat-park-travel-guide-screenshot.9635b15ca033496dfbba.png",
+    "static/media/task-sandwich.png": "/ekirb-react-portfolio/static/media/task-sandwich.815f6e536d60eafca282.png",
     "static/media/thinkingRobot.jpg": "/ekirb-react-portfolio/static/media/thinkingRobot.dfc9b8a7381c9ca6fdbf.jpg",
+    "static/media/boston-street-cuisine.png": "/ekirb-react-portfolio/static/media/boston-street-cuisine.3706496330d2d8e6efa0.png",
+    "static/media/resume.pdf": "/ekirb-react-portfolio/static/media/resume.2c71150758399bb25d03.pdf",
     "static/media/weather-forecast-screenshot.png": "/ekirb-react-portfolio/static/media/weather-forecast-screenshot.406c388bf31e565f9ce6.png",
+    "static/media/resume-img.webp": "/ekirb-react-portfolio/static/media/resume-img.e4c5c34e1292e64e4fdb.webp",
+    "static/media/bulb-standout.jpg": "/ekirb-react-portfolio/static/media/bulb-standout.a9a210bc27e58abf962e.jpg",
     "static/media/daily-sched-screenshot.png": "/ekirb-react-portfolio/static/media/daily-sched-screenshot.6528d637459297ebd820.png",
     "static/media/big-quiz-screenshot.png": "/ekirb-react-portfolio/static/media/big-quiz-screenshot.0e8e631a9a86cc614200.png",
     "static/media/github-logo.jpg": "/ekirb-react-portfolio/static/media/github-logo.fabbe3c10b110b54f815.jpg",
     "static/media/random-password-generator-screenshot.png": "/ekirb-react-portfolio/static/media/random-password-generator-screenshot.772b327e01b07437a038.png",
+    "static/media/lofi-img.webp": "/ekirb-react-portfolio/static/media/lofi-img.4b77484ad782033bfddf.webp",
     "static/media/linkedin-logo.jpg": "/ekirb-react-portfolio/static/media/linkedin-logo.d85c32d23d11237ea004.jpg",
+    "static/media/light-bulb.jpg": "/ekirb-react-portfolio/static/media/light-bulb.1dfa50272280b358befd.jpg",
+    "static/media/bulb7.jpg": "/ekirb-react-portfolio/static/media/bulb7.da0b983b40d252a0ae03.jpg",
     "index.html": "/ekirb-react-portfolio/index.html",
-    "main.d942441b.css.map": "/ekirb-react-portfolio/static/css/main.d942441b.css.map",
-    "main.8c1321a7.js.map": "/ekirb-react-portfolio/static/js/main.8c1321a7.js.map"
+    "main.cd23eba9.css.map": "/ekirb-react-portfolio/static/css/main.cd23eba9.css.map",
+    "main.66ce0080.js.map": "/ekirb-react-portfolio/static/js/main.66ce0080.js.map"
   },
   "entrypoints": [
-    "static/css/main.d942441b.css",
-    "static/js/main.8c1321a7.js"
+    "static/css/main.cd23eba9.css",
+    "static/js/main.66ce0080.js"
   ]
 }
